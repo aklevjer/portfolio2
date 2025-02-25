@@ -1,7 +1,7 @@
 {
   "name": "portfolio2",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A personal portfolio website showcasing my projects and experience",
   "type": "module",
   "scripts": {
