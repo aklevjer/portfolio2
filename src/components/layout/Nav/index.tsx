@@ -1,6 +1,7 @@
 import { useRef, useEffect } from "react";
 import { twMerge } from "tailwind-merge";
 import { NAV_LINKS } from "@/constants/links";
+import Link from "@/components/ui/Link";
 
 interface NavProps {
   isMenuOpen: boolean;
@@ -43,13 +44,9 @@ export default function Nav({ isMenuOpen, setIsMenuOpen }: NavProps) {
               isMenuOpen && "h-10",
             )}
           >
-            <a
-              href={path}
-              onClick={() => setIsMenuOpen(false)}
-              className="decoration-indigo-500 underline-offset-4 hover:underline"
-            >
+            <Link path={path} onClick={() => setIsMenuOpen(false)}>
               {label}
-            </a>
+            </Link>
           </li>
         ))}
       </ul>
