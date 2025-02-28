@@ -8,6 +8,17 @@ interface NavProps {
   setIsMenuOpen: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
+/**
+ * Nav component that displays the navigational links.
+ * Handles closing the menu when clicking outside.
+ *
+ * @component
+ * @param props - The properties passed to the component.
+ * @param props.isMenuOpen - Whether the mobile menu is currently open.
+ * @param props.setIsMenuOpen - Function to toggle menu visibility.
+ *
+ * @returns JSX element representing the nav.
+ */
 export default function Nav({ isMenuOpen, setIsMenuOpen }: NavProps) {
   const navRef = useRef<HTMLElement | null>(null);
 

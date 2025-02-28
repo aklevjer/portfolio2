@@ -1,6 +1,12 @@
 import Heading from "@/components/ui/Heading";
 import Button from "@/components/ui/Button";
 
+/**
+ * Hero component that displays the hero section, including an image, introductory content, and a CTA button.
+ *
+ * @component
+ * @returns JSX element representing the hero section.
+ */
 export default function Hero() {
   return (
     <section className="flex flex-col items-center justify-between gap-6 md:flex-row-reverse">

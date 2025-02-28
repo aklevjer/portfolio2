@@ -6,6 +6,15 @@ interface CardProps {
   project: Project;
 }
 
+/**
+ * Card component that displays details of a project in card format.
+ *
+ * @component
+ * @param props - The properties passed to the component.
+ * @param props.project - The project details to display in the card.
+ *
+ * @returns JSX element representing the card.
+ */
 export default function Card({ project }: CardProps) {
   const { title, image, description, website, github } = project;
 
