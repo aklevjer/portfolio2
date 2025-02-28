@@ -1,6 +1,12 @@
 import { SOCIAL_LINKS } from "@/constants/links";
 import Heading from "@/components/ui/Heading";
 
+/**
+ * Contact component that displays social media links as clickable icons.
+ *
+ * @component
+ * @returns JSX element representing the contact section.
+ */
 export default function Contact() {
   return (
     <section id="contact" className="scroll-mt-8 space-y-4">

@@ -5,6 +5,16 @@ interface MenuButtonProps {
   setIsMenuOpen: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
+/**
+ * MenuButton component that toggles the mobile menu visibility.
+ *
+ * @component
+ * @param props - The properties passed to the component.
+ * @param props.isMenuOpen - Whether the mobile menu is currently open.
+ * @param props.setIsMenuOpen - Function to toggle menu visibility.
+ *
+ * @returns JSX element representing the menu button.
+ */
 export default function MenuButton({ isMenuOpen, setIsMenuOpen }: MenuButtonProps) {
   const handleToggleMenu = (event: React.MouseEvent<HTMLButtonElement>) => {
     event.stopPropagation();

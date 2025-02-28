@@ -1,6 +1,12 @@
 import { SKILLS } from "@/constants/skills";
 import Heading from "@/components/ui/Heading";
 
+/**
+ * Skills component that displays a list of skills as clickable icons.
+ *
+ * @component
+ * @returns JSX element representing the skills section.
+ */
 export default function Skills() {
   return (
     <section id="skills" className="scroll-mt-8 space-y-4">

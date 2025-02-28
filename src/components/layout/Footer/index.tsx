@@ -1,5 +1,11 @@
 import { BiLogoGithub } from "react-icons/bi";
 
+/**
+ * Footer component that displays copyright information and a GitHub link.
+ *
+ * @component
+ * @returns JSX element representing the footer.
+ */
 export default function Footer() {
   return (
     <footer className="flex flex-col items-center justify-between gap-4 border-t border-gray-600 py-4 md:flex-row-reverse">

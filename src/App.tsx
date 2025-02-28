@@ -6,6 +6,12 @@ import Projects from "@/components/sections/Projects";
 import Contact from "@/components/sections/Contact";
 import Footer from "@/components/layout/Footer";
 
+/**
+ * Main application component that renders the layout and sections.
+ *
+ * @component
+ * @returns JSX element representing the main app.
+ */
 export default function App() {
   return (
     <>

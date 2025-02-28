@@ -1,6 +1,12 @@
 import Heading from "@/components/ui/Heading";
 import Link from "@/components/ui/Link";
 
+/**
+ * About component that displays an informational section about the developer.
+ *
+ * @component
+ * @returns JSX element representing the about section.
+ */
 export default function About() {
   return (
     <section id="about" className="scroll-mt-8 space-y-4 hyphens-auto">

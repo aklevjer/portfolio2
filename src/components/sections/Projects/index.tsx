@@ -2,6 +2,12 @@ import { PROJECTS } from "@/constants/projects";
 import Heading from "@/components/ui/Heading";
 import Card from "@/components/ui/Card";
 
+/**
+ * Projects component that displays a list of projects using the `Card` component for each project.
+ *
+ * @component
+ * @returns JSX element representing the projects section.
+ */
 export default function Projects() {
   return (
     <section id="projects" className="scroll-mt-8 space-y-4">
