@@ -16,6 +16,9 @@
   --text-m: 0.9375rem;
   --text-base: 1.0625rem;
 
+  --container-width: 800px;
+  --container-padding: 1rem;
+
   --grid-rows-layout: auto 1fr auto;
   --grid-cols-skills: repeat(auto-fit, minmax(min(100px, 100%), 1fr));
 
@@ -26,8 +29,11 @@
 
 @utility container {
   margin-inline: auto;
-  padding-inline: 1rem;
-  max-width: 800px;
+  padding-inline: theme(--container-padding);
+
+  @media (width >= theme(--breakpoint-sm)) {
+    max-width: theme(--container-width);
+  }
 }
 
 /* Global */
