@@ -10,7 +10,7 @@ import Card from "@/components/ui/Card";
  */
 export default function Projects() {
   return (
-    <section id="projects" className="scroll-mt-8 space-y-4">
+    <section id="projects" className="scroll-mt-8 space-y-6">
       <Heading level="h2">Projects</Heading>
 
       <ul className="space-y-6">

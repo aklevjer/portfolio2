@@ -9,7 +9,7 @@ import Heading from "@/components/ui/Heading";
  */
 export default function Contact() {
   return (
-    <section id="contact" className="scroll-mt-8 space-y-4">
+    <section id="contact" className="scroll-mt-8 space-y-6">
       <Heading level="h2">Contact me</Heading>
 
       <div className="flex flex-wrap items-center justify-between gap-6">
