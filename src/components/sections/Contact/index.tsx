@@ -27,7 +27,7 @@ export default function Contact() {
                 aria-label={label}
                 className="block rounded-md border border-gray-600 bg-gray-700 p-2 transition-colors hover:cursor-pointer hover:border-indigo-500"
               >
-                <Icon size={32} />
+                <Icon size={28} />
               </a>
             </li>
           ))}
