@@ -9,7 +9,7 @@ import Heading from "@/components/ui/Heading";
  */
 export default function Contact() {
   return (
-    <section id="contact" className="scroll-mt-8 space-y-4">
+    <section id="contact" className="scroll-mt-8 space-y-6">
       <Heading level="h2">Contact me</Heading>
 
       <div className="flex flex-wrap items-center justify-between gap-6">
@@ -27,7 +27,7 @@ export default function Contact() {
                 aria-label={label}
                 className="block rounded-md border border-gray-600 bg-gray-700 p-2 transition-colors hover:cursor-pointer hover:border-indigo-500"
               >
-                <Icon size={32} />
+                <Icon size={28} />
               </a>
             </li>
           ))}

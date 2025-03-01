@@ -9,7 +9,7 @@ import Heading from "@/components/ui/Heading";
  */
 export default function Skills() {
   return (
-    <section id="skills" className="scroll-mt-8 space-y-4">
+    <section id="skills" className="scroll-mt-8 space-y-6">
       <Heading level="h2">Skills</Heading>
 
       <ul className="grid grid-cols-(--grid-cols-skills) gap-4">

@@ -51,7 +51,7 @@ export default function Nav({ isMenuOpen, setIsMenuOpen }: NavProps) {
           <li
             key={label}
             className={twMerge(
-              "h-0 overflow-hidden text-center leading-10 transition-[height] duration-200 md:h-auto",
+              "h-0 overflow-hidden text-center leading-10 transition-[height] duration-200 md:h-auto md:overflow-visible",
               isMenuOpen && "h-10",
             )}
           >
