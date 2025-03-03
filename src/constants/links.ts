@@ -35,7 +35,6 @@ export const SOCIAL_LINKS = [
     label: "Codepen",
     icon: BiLogoCodepen,
   },
-
   {
     path: "https://www.facebook.com/aleksander.klevjer",
     label: "Facebook",

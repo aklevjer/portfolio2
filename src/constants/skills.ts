@@ -53,7 +53,6 @@ export const SKILLS = [
     label: "Bootstrap",
     icon: BiLogoBootstrap,
   },
-
   {
     path: "https://www.figma.com",
     label: "Figma",
@@ -64,7 +63,6 @@ export const SKILLS = [
     label: "Cypress",
     icon: TbBrandCypress,
   },
-
   {
     path: "https://vitest.dev",
     label: "Vitest",
