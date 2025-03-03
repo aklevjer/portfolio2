@@ -1,50 +1,50 @@
-# React + TypeScript + Vite
+# Portfolio 2
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Screen shot of the portfolio site](https://sinnsykt.net/screenshots/portfolio2-screen.jpg)
 
-Currently, two official plugins are available:
+A personal portfolio showcasing projects from the second year of studies at Noroff.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Description
 
-## Expanding the ESLint configuration
+This project was developed for the second year of studies at Noroff. The portfolio features an about section, a skills section, and a projects section showcasing key second-year submissions as detailed project cards. Additionally, it includes a contact section with social links.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Built With
 
-- Configure the top-level `parserOptions` property like this:
+- **React** for building the user interface.
+- **TypeScript** for static typing and type safety.
+- **Tailwind CSS** for utility-based styling and responsive design.
+- **Vite** for bundling and development.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## Getting Started
+
+### Installing
+
+1. Clone the repository:
+
+```bash
+git clone git@github.com:aklevjer/portfolio2.git
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+2.  Install the dependencies:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+```bash
+npm install
 ```
+
+### Running
+
+To run the app in development mode, use the following command:
+
+```bash
+npm run dev
+```
+
+To build the app for production, use the following command:
+
+```bash
+npm run build
+```
+
+## Live Site
+
+The site is deployed on **Netlify**, and can be seen live [here](https://portfolio2-ak.netlify.app).
